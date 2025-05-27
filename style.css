@@ -1,0 +1,42 @@
+*{
+    border: 1px solid black;
+    margin: 0%;
+    padding: 0%;
+}
+header nav ul li a{
+    color: black;
+    text-decoration-line: underline;
+}
+header div a{
+    text-decoration: none;
+    color: black; 
+    margin-left: 39%;
+    margin-right: 30%;
+}
+header img{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer div img {
+    border-radius: 50%;
+    width: 5%;
+    height: auto;
+}
+footer div{
+    width: 20%;
+    margin-left: 39%;
+    margin-right: 39%;
+    text-align: center;
+}
+footer h5{
+    text-align: center;
+}
+footer{
+    width: 100%;
+}
+.Index a{
+    
+}
