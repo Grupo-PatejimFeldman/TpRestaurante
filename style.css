@@ -13,7 +13,7 @@ header nav ul li a{
     color: #fca311;
     text-decoration: none;
     font-size: xx-large;
-    font-family:'Times New Roman', Times, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 header nav ul li a:hover{
@@ -109,7 +109,7 @@ footer{
 
 /* MENÚ*/
 
-.menu h1{
+.Menu h1{
     text-align: center;
     clear: both;
     padding: 1%;
@@ -117,23 +117,23 @@ footer{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.menu h4{
+.Menu h4{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
 }
 
-.menu div{
+.Menu div{
     width: 36%;
     float: left;
     margin: 2%;
 }
 
-.menu img{
+.Menu img{
     width: 20%;
     float: left;
 }
 
-.menu article{
+.Menu article{
     margin-bottom: 5%;
     border-top: 1px solid #c0c0c0;
     border-bottom: 1px solid #c0c0c0;
@@ -143,4 +143,67 @@ footer{
 
 .Reservas *{
     border: 1px solid black;
+}
+
+/* HISTORIA */
+
+.Historia *{
+    border: 1px solid black;
+}
+
+.Historia h1{
+    width: 30%;
+    float: left;
+    margin-left: 11%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: xx-large;
+    padding: 2% 0%;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.Historia article{
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Historia article h3{
+    font-size: x-large;
+}
+
+.Historia div{
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    margin: 0%;
+    background-color: black;
+
+}
+
+.Actual{
+    background-color: #ffffff;
+
+}
+
+.Actual h1{
+    float: right;
+    margin-right: 11%;
+    margin-left: 0%;
+
+}
+
+.Actual article{
+    float: left;
+    margin-left: 10%;
+    margin-right: 0%;
+
 }
