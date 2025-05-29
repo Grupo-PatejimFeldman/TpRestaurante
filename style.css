@@ -79,35 +79,43 @@ footer h5{
 }
 
 footer{
+    clear: both;
     width: 100%;
     background-color: black;
     padding: 5px;
-    clear: both;
 }
 
 /* INDEX */
 
-.Index{
-    background-image: url(img/fondo4.jpg);
-    background-size: cover;
-    height: 700px;
+*{
     
 }
 
-.Index a{
+main section{
+    background-color: #ffffff;
+    margin: 0%;
+}
+
+main section div{
+    width: 64%;
+    margin: 0% 3%;
     float: left;
-    font-size: xx-large;
-    text-decoration: none;
-    padding: 1%;
-    background-color: #e5e5e5;
-    width: 10%;
-    margin: 15% 45%;
-    text-align: center;
-    border-radius: 15px;
-    color: #14213d;
+}
+
+.columnDer{
+    width: 24%;
+    float: right;
+}
+
+main img{
+    width: 100%;
 }
 
 /* MENÚ*/
+
+.Menu{
+    background-color: #ffffff;
+}
 
 .Menu h1{
     text-align: center;
@@ -147,37 +155,42 @@ footer{
 
 /* HISTORIA */
 
-.Historia *{
-    border: 1px solid black;
+.Historia{
+    background-color:#14213d ;
+
 }
+
+
 
 .Historia h1{
     width: 30%;
     float: left;
     margin-left: 11%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 6%;
+    margin-bottom: 6%;
     text-align: center;
     font-size: xx-large;
     padding: 2% 0%;
     border-radius: 30px;
-    background-color: rgb(255, 255, 255);
-
+    background-color: #ffffff;
+    color: #14213d;
 }
 
 .Historia article{
     width: 30%;
     float: right;
     margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 6%;
+    margin-bottom: 6%;
     padding: 1%;
     border-radius: 15px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    color: #14213d;
 }
 
 .Historia article h3{
     font-size: x-large;
+    border-bottom: 1px solid #14213d;
 }
 
 .Historia div{
@@ -185,7 +198,7 @@ footer{
     display: inline-block;
     width: 100%;
     margin: 0%;
-    background-color: black;
+    
 
 }
 
@@ -198,12 +211,46 @@ footer{
     float: right;
     margin-right: 11%;
     margin-left: 0%;
-
+    background-color: #14213d;
+    color: #ffffff;
 }
 
 .Actual article{
     float: left;
     margin-left: 10%;
     margin-right: 0%;
+    background-color: #14213d;
+    color: #ffffff;
+}
 
+.Actual article h3{
+    border-bottom: 1px solid white;
+}
+
+/* RESERVA COMPLETA */
+
+.Completo{
+    background-image: url(img/fondo4.jpg); 
+    height: 700px; 
+    background-size: cover;
+}
+
+.Completo div{
+    width: 40%;
+    margin: 0% 30%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.Completo h1{
+    padding: 5%;
+}
+
+.Completo img{
+    border-radius: 200px;
+    width: 30%;
+}
+
+.Completo h3{
+    padding: 5%;
 }
