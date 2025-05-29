@@ -91,7 +91,7 @@ footer{
     
 }
 
-main section{
+/* main section{
     background-color: #ffffff;
     margin: 0%;
 }
@@ -101,6 +101,7 @@ main section div{
     margin: 0% 3%;
     float: left;
 }
+ */
 
 .columnDer{
     width: 24%;
@@ -204,11 +205,29 @@ margin-right: 10px;
 
 /* HISTORIA */
 
-.Historia *{
-    border: 1px solid black;
+.Historia{
+    width: 70%;
+    float: left;
 }
 
+main img{
+    width: 15%;
+    float: left;
+}
 
+.Historia div{
+    display: inline-block;
+}
+
+.Historia div h1, .Historia div article{
+    width: 45%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+
+    border: 1px solid black;
+}
 
 /*
 .Historia{
