@@ -87,21 +87,16 @@ footer{
 
 /* INDEX */
 
-*{
-    
+main *{
+    border: 1px solid black;
 }
 
-/* main section{
-    background-color: #ffffff;
-    margin: 0%;
-}
-
-main section div{
+main div{
+    display: inline-block;
     width: 64%;
     margin: 0% 3%;
-    float: left;
+    float:left;
 }
- */
 
 .columnDer{
     width: 24%;
@@ -150,57 +145,53 @@ main img{
 
 /* RESERVAS */
 
-.Reservas *{
-    border: 1px solid black;
-}
+
 .Reservas {
 background-color: #fff;
-padding: 30px;
+margin: 2% 10%;
+padding: 2% 2% 0% 2%;
 border-radius: 8px;
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-width: 80%; /* Ajusta el ancho del formulario /
-max-width: 600px; / Ancho máximo para pantallas grandes */
+box-shadow: 0px 2px 10px gray;
+width: 74%;
 }
 
 .Reservas h1 {
 text-align: center;
-color: #333;
-margin-bottom: 20px;
-}
-
-.Reservas form {
-display: grid;
-grid-gap: 15px;
+color: #14213d;
+margin-bottom: 2%;
 }
 
 .Reservas input,.Reservas h5 {
 width: 100%;
 padding: 10px;
-margin-top: 5px;
-margin-bottom: 10px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box; /* Para que el padding y el border no aumenten el ancho */
+margin-top: 1%;
+margin-bottom: 4%;
+border: 1px solid #c0c0c0;
+border-radius: 5px;
 font-size: 16px;
 }
 
-.Reservas input:focus {
-outline: none;
-border-color: #6c63ff; /* Un color de foco */
-box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
-}
-
 .Reservas h5 {
-display: flex;
-align-items: center;
 font-size: 14px;
-font-weight: normal;
-margin-top: 0;
+border: none;
+margin: 0%;
+padding: 0%;
 }
 
 .Reservas h5 input {
 width: auto;
 margin-right: 10px;
+}
+
+.Reservas a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1.5% 5% 0% 5%;
+    margin: 0% 43%;
+    font-size: xx-large;
+    background-color: #14213d;
+    color: #ffffff;
+    border-radius: 50px 50px 0px 0px;
 }
 
 /* HISTORIA */
@@ -217,90 +208,29 @@ main img{
 
 .Historia div{
     display: inline-block;
+
 }
 
 .Historia div h1, .Historia div article{
-    width: 45%;
-    margin: 1%;
-    float: left;
-    text-align: center;
-    padding: 1%;
-
-    border: 1px solid black;
-}
-
-/*
-.Historia{
-    background-color:#14213d ;
-
-}
-
-
-
-.Historia h1{
-    width: 30%;
-    float: left;
-    margin-left: 11%;
-    margin-top: 6%;
-    margin-bottom: 6%;
-    text-align: center;
-    font-size: xx-large;
-    padding: 2% 0%;
-    border-radius: 30px;
-    background-color: #ffffff;
-    color: #14213d;
-}
-
-.Historia article{
-    width: 30%;
+    width: 42%;
+    margin: 6.7% 3%;
     float: right;
-    margin-right: 10%;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    text-align: center;
     padding: 1%;
+    background-color: #14213d;
     border-radius: 15px;
-    background-color: #ffffff;
-    color: #14213d;
-}
-
-.Historia article h3{
-    font-size: x-large;
-    border-bottom: 1px solid #14213d;
-}
-
-.Historia div{
-    clear: both;
-    display: inline-block;
-    width: 100%;
-    margin: 0%;
-    
-
-}
-
-.Actual{
-    background-color: #ffffff;
-
-}
-
-.Actual h1{
-    float: right;
-    margin-right: 11%;
-    margin-left: 0%;
-    background-color: #14213d;
     color: #ffffff;
+    box-shadow: -2px 2px 2px 2px gray;
 }
 
-.Actual article{
-    float: left;
-    margin-left: 10%;
-    margin-right: 0%;
-    background-color: #14213d;
-    color: #ffffff;
+.Historia div h1{
+    width: 25%;
+    margin: 8% 11%;
+    color: #fca311;
+    box-shadow: -2px 2px 2px 2px;
 }
 
-.Actual article h3{
-    border-bottom: 1px solid white;
-}
+
 
 /* RESERVA COMPLETA */
 
@@ -315,8 +245,9 @@ main img{
     margin: 0% 30%;
     text-align: center;
     background-color: #ffffff;
-}
+    box-shadow: 0px 4px 9px 2px grey;
 
+}
 .Completo h1{
     padding: 5%;
 }
@@ -324,8 +255,10 @@ main img{
 .Completo img{
     border-radius: 200px;
     width: 30%;
+    margin: 0% 35%;
 }
 
 .Completo h3{
     padding: 5%;
+    clear: both;
 }
