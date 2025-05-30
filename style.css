@@ -85,26 +85,131 @@ footer{
     padding: 5px;
 }
 
-/* INDEX */
+/* SUCURSALES */
 
-main *{
-    border: 1px solid black;
+.Sucursales{
+    background-color: #000;
 }
 
-main div{
+.Sucursales div{
     display: inline-block;
-    width: 64%;
-    margin: 0% 3%;
-    float:left;
+    width: 100%;
+    background-color: #fff;
 }
 
-.columnDer{
-    width: 24%;
+.Sucursales div h1, .Sucursales div article{
+    width: 40%;
+    margin: 6.7% 3%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+    background-color: #14213d;
+    border-radius: 15px;
+    color: #ffffff;
+    box-shadow: -2px 2px 2px 2px gray;
+}
+
+.Sucursales div h1{
+    width: 25%;
+    margin: 8% 11%;
+    color: #fca311;
+    box-shadow: -2px 2px 2px 2px;
+}
+
+.Sucursales div article h3{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+/*
+.Sucursales{
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Sucursales h1, .Sucursales article{
     float: right;
 }
 
-main img{
+/* INDEX */
+
+.Index *{
+    display: inline-block;
+}
+
+.Index section{
+    width: 30%;
+    float: left;
+    margin: 1% 1.5% 1% 0%;
+    background-color: #14213d;
+    padding: 0.5% 0%;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.Index section h1{
+    color: #ffffff;
+    font-size: x-large;
+    padding-left: 5%;
+}
+
+.Index div{
+    width: 30%;
+    margin: 1% 1.5%;
+    float: left;
+    text-align: center;
+    padding: 0.5%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px 5px gray;
+}
+
+.Index div h1{
+    padding: 1%;
+    text-align: center;
+}
+
+.Index div a{
+    font-size: xx-large;
+    padding: 2% 3%;
+    margin: 3% 10%;
+    background-color: #14213d;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 0px 15px;
+}
+
+.Index div a:hover{
+    color: #fca311;
+}
+
+.Index section div{
+    width: 92%;
+    margin: 1% 4%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+}
+
+.Index div img{
     width: 100%;
+}
+
+.Index section div img{
+    width: 18%;
+    margin: 1%;
+    box-shadow: 0px 0px 3px 2px #c0c0c0;
+    border-radius: 90px;
+}
+
+.Index section div p{
+    padding: 0% 1%;
+    text-align: left;
+}
+
+.imgIndex{
+    border-radius: 15px 15px 0px 0px ;
 }
 
 /* MENÚ*/
@@ -262,3 +367,4 @@ main img{
     padding: 5%;
     clear: both;
 }
+
